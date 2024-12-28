@@ -98,7 +98,8 @@ VITE_MAPBOX_API_KEY=<your_mapbox_api_key>
     </ul>
     <h3>Driver Interface</h3>
     <ul>
-        <li>Dashboard - <em>Insert Image</em></li>
+        <li>Dashboard - <em>Insert Image<img width="1710" alt="Screenshot 2024-12-28 at 1 43 51 AM" src="https://github.com/user-attachments/assets/1c680e31-9e67-480a-9bf6-9d4e146dfdc8" />
+</em></li>
         <li>Earnings Report - <em>Insert Image</em></li>
         <li>Ride Alerts - <em>Insert Image</em></li>
     </ul>
