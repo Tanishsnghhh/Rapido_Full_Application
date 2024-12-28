@@ -1,0 +1,150 @@
+.nav-container {
+    width: 100%;
+    min-height: 70px;
+    background: linear-gradient(135deg, #F5E6D3 0%, #E2C9A1 100%);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0 4px 15px rgba(226, 201, 161, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 2rem;
+}
+
+.app-logo {
+    width: 100px;
+    filter: brightness(0.2);
+    transition: transform 0.3s ease;
+}
+
+.app-logo:hover {
+    transform: scale(1.05);
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links {
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    text-decoration: none;
+    color: #725B3A;
+    padding: 0.5rem 0;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.nav-links-active {
+    color: #4A3B26;
+}
+
+.nav-links::before {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #4A3B26;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
+    border-radius: 2px;
+}
+
+.nav-links:hover {
+    color: #4A3B26;
+}
+
+.nav-links:hover::before {
+    width: 100%;
+}
+
+.app-download-btn {
+    margin-left: 2rem;
+    border: 2px solid #000000;
+    outline: none;
+    background-color: #ffffff;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    padding: 8px 24px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 0 0 2px #f9c935;
+}
+
+.app-download-btn:hover {
+    background-color: #f9c935;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(249, 201, 53, 0.3);
+    color: #000000;
+    border-color: #000000;
+}
+
+.menu-icons {
+    display: none;
+    cursor: pointer;
+}
+
+#offcanvas-bar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding: 2rem;
+    transition: right 0.3s ease;
+    z-index: 999;
+}
+
+#offcanvas-bar.active {
+    right: 0;
+}
+
+#offcanvas-bar .nav-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 991px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .app-logo {
+        width: 80px;
+    }
+
+    .nav-links {
+        font-size: 1.1rem;
+    }
+
+    #offcanvas-bar .nav-links {
+        color: #4A3B26;
+    }
+
+    #offcanvas-bar .nav-links-active {
+        border-bottom: 2px solid #4A3B26;
+    }
+
+    .menu-icons {
+        display: block;
+    }
+
+    .app-download-btn {
+        font-size: 0.85rem;
+    }
+}
