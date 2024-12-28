@@ -94,7 +94,7 @@ VITE_MAPBOX_API_KEY=<your_mapbox_api_key>
     <ul>
         <li>Dashboard - <em>Insert Image</em></li>
         <li>Ride History - <em>Insert Image</em></li>
-        <li>Loyalty Program - <em>Insert Image</em></li>
+        <li>Loyalty Program - <em>Insert Image</em></li>   
     </ul>
     <h3>Driver Interface</h3>
     <ul>
