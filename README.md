@@ -83,11 +83,12 @@ VITE_MAPBOX_API_KEY=<your_mapbox_api_key>
     <p>The application uses MongoDB as the database to store user and captain data. Below are screenshots of the database data:</p>
     <h3>Captain Database</h3>
     <ul>
-        <li>Captain Data - <em>Insert Screenshot of Captain Database</em></li>
+        <li>Captain Data - <em><img width="1416" alt="Screenshot 2024-12-29 at 2 07 47 AM" src="https://github.com/user-attachments/assets/d3ed2f5e-c0fa-47c6-a149-ab8a38b4d66a" />![Uploading Screenshot 2024-12-29 at 2.18.38 AM.png…]()
+</em></li>
     </ul>
     <h3>User Database</h3>
     <ul>
-        <li>User Data - <em>Insert Screenshot of User Database</em></li>
+        <li>User Data - <em><img width="1410" alt="Screenshot 2024-12-29 at 2 18 38 AM" src="https://github.com/user-attachments/assets/158f345d-8b9c-4faa-ac1d-ca07ad700b82" /></em></li>
     </ul>
     <h2>Images</h2>
     <h3>Captain Interface</h3>
@@ -98,7 +99,8 @@ VITE_MAPBOX_API_KEY=<your_mapbox_api_key>
     </ul>
     <h3>Driver Interface</h3>
     <ul>
-        <li>Dashboard - <em>Insert Image<img width="1710" alt="Screenshot 2024-12-28 at 1 43 51 AM" src="https://github.com/user-attachments/assets/1c680e31-9e67-480a-9bf6-9d4e146dfdc8" />
+        <li>Dashboard - <em><img width="1710" alt="Screenshot 2024-12-28 at 1 43 51 AM" src="https://github.com/user-attachments/assets/1c680e31-9e67-480a-9bf6-9d4e146dfdc8" />
+
 </em></li>
         <li>Earnings Report - <em>Insert Image</em></li>
         <li>Ride Alerts - <em>Insert Image</em></li>
