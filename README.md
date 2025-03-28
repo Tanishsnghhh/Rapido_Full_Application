@@ -49,7 +49,6 @@
         <li>User and captain interfaces</li>
         <li>Secure login and signup functionality</li>
         <li>Booking and ride management</li>
-        <li>Loyalty programs for frequent riders</li>
         <li>Integrated payment gateway</li>
     </ul>
     <h2>MongoDB Database</h2>
